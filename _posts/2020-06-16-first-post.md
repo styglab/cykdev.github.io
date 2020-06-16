@@ -16,13 +16,12 @@ bag파일을 ros가 설치된 서버에 업로드
 
 1.bag2pcd
 
-1.0 명령창에서 bag2pcd 명령 실행
-
-`rosrun pcl_ros bag_to_pcd 파일경로 /lidar_cloud0 ./pcd`
-
-예시)
-
-`rosrun pcl_ros bag_to_pcd /home/lidartoeverything/CES_11_30.bag /lidar_cloud0 ./pcd`
+1.0 명령창에서 bag2pcd 명령 실행  
+```
+rosrun pcl_ros bag_to_pcd 파일경로 /lidar_cloud0 ./pcd
+```
+예시)  
+```rosrun pcl_ros bag_to_pcd /home/lidartoeverything/CES_11_30.bag /lidar_cloud0 ./pcd```  
 
 　
 
@@ -43,28 +42,33 @@ pcd2bin폴더 안의 pcd2bin.cpp 코드 내 int main 부분의 bin_path 와 pcd_
 
 pcd2bin.cpp 내 하단 부분의 경로 수정 
 
-`    std::string bin_path = "/home/cecilia/leo_projects/bishe2019/pcd2bin/bin/";`
-
-`    std::string pcd_path = "/home/cecilia/leo_projects/bishe2019/pcd2bin/pcd/";`
+```cpp
+std::string bin_path = "/home/cecilia/leo_projects/bishe2019/pcd2bin/bin/";
+std::string pcd_path = "/home/cecilia/leo_projects/bishe2019/pcd2bin/pcd/";
+```  
 
 2.3 변환하고자 하는 pcd파일을 다운로드 받은 pcd폴더에 넣기
 
 2.4 CMake를 이용한 변환
 
-`cd CMakeFile; ./pcd2bin`
-
+```
+cd CMakeFile; ./pcd2bin
+```  
 　
 
 3.파일 리스트 만들기
 
-3.0 list.txt 만들기
+3.0 list.txt 만들기  
 
-`cd bin; ls -1 | grep ".bin$" > list.txt`
+```
+cd bin; ls -1 | grep ".bin$" > list.txt
+```  
 
-3.1 files_list.txt 만들기
+3.1 files_list.txt 만들기  
 
-`python get_list.py`
-
+```python
+python get_list.py
+```
 　
 
 #.참조
