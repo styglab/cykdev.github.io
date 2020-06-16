@@ -5,6 +5,7 @@ categories: bag2bin bag2pcd pcd2bin bag2kitti pcd bin kitti
 ---
 
 0. 준비사항
+
 0.0 우분투에 ros 설치
 (http://wiki.ros.org/ROS/Installation)
 
@@ -12,12 +13,14 @@ categories: bag2bin bag2pcd pcd2bin bag2kitti pcd bin kitti
 bag파일을 ros가 설치된 서버에 업로드
 
 1. bag2pcd
+
 1.0 명령창에서 bag2pcd 명령 실행
 `rosrun pcl_ros bag_to_pcd 파일경로 /lidar_cloud0 ./pcd`
 예시)
 `rosrun pcl_ros bag_to_pcd /home/lidartoeverything/CES_11_30.bag /lidar_cloud0 ./pcd`
 
 2. pcd2bin (kitti)
+
 2.0 rosbag2kitti 코드 다운로드 
 (https://github.com/leofansq/Tools_RosBag2KITTI)
 
@@ -38,11 +41,12 @@ pcd2bin.cpp 내 하단 부분의 경로 수정
 `cd CMakeFile; ./pcd2bin`
 
 3. 파일 리스트 만들기
+
 3.0 list.txt 만들기
 `cd bin; ls -1 | grep ".bin$" > list.txt`
 
 3.1 files_list.txt 만들기
 `python get_list.py`
 
-*.참조
+#. 참조
 https://github.com/leofansq/Tools_RosBag2KITTI
