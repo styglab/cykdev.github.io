@@ -12,7 +12,6 @@ categories: bag2bin bag2pcd pcd2bin bag2kitti pcd bin kitti
 0.1 bag파일 업로드
 bag파일을 ros가 설치된 서버에 업로드
 
-<p>
 1.bag2pcd
 
 1.0 명령창에서 bag2pcd 명령 실행
@@ -23,7 +22,7 @@ bag파일을 ros가 설치된 서버에 업로드
 
 `rosrun pcl_ros bag_to_pcd /home/lidartoeverything/CES_11_30.bag /lidar_cloud0 ./pcd`
 
-</p>
+
 
 2.pcd2bin (kitti)
 
