@@ -22,6 +22,7 @@ bag파일을 ros가 설치된 서버에 업로드
 
 `rosrun pcl_ros bag_to_pcd /home/lidartoeverything/CES_11_30.bag /lidar_cloud0 ./pcd`
 
+
 2.pcd2bin (kitti)
 
 2.0 rosbag2kitti 코드 다운로드 
@@ -45,6 +46,7 @@ pcd2bin.cpp 내 하단 부분의 경로 수정
 2.4 CMake를 이용한 변환
 
 `cd CMakeFile; ./pcd2bin`
+
 
 3.파일 리스트 만들기
 
