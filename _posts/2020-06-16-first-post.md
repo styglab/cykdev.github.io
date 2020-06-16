@@ -23,6 +23,7 @@ bag파일을 ros가 설치된 서버에 업로드
 
 `rosrun pcl_ros bag_to_pcd /home/lidartoeverything/CES_11_30.bag /lidar_cloud0 ./pcd`
 
+</p>
 
 2.pcd2bin (kitti)
 
