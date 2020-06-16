@@ -5,10 +5,10 @@ categories: bag2bin bag2pcd pcd2bin bag2kitti pcd bin kitti
 ---
 
 0.준비사항
-　
+
 0.0 우분투에 ros 설치
 (http://wiki.ros.org/ROS/Installation)
-　
+
 0.1 bag파일 업로드
 bag파일을 ros가 설치된 서버에 업로드
 
@@ -24,7 +24,7 @@ bag파일을 ros가 설치된 서버에 업로드
 
 `rosrun pcl_ros bag_to_pcd /home/lidartoeverything/CES_11_30.bag /lidar_cloud0 ./pcd`
 
-
+　
 
 2.pcd2bin (kitti)
 
