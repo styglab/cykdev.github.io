@@ -33,6 +33,7 @@ bag파일을 ros가 설치된 서버에 업로드
 
 2.1
 프로젝트 만들기
+
 `mkdir CMakeFile; cd CMakeFile; cmake ..; make`
 
 2.2 코드 폴더 안의 pcd2bin.cpp 파일에서 경로 고치기
@@ -50,6 +51,7 @@ pcd2bin.cpp 내 하단 부분의 경로 수정
 
 `cd CMakeFile; ./pcd2bin`
 
+　
 
 3.파일 리스트 만들기
 
@@ -61,6 +63,7 @@ pcd2bin.cpp 내 하단 부분의 경로 수정
 
 `python get_list.py`
 
+　
 
 #.참조
 https://github.com/leofansq/Tools_RosBag2KITTI
