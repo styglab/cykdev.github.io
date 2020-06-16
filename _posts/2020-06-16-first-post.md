@@ -15,7 +15,9 @@ bag파일을 ros가 설치된 서버에 업로드
 1.bag2pcd
 
 1.0 명령창에서 bag2pcd 명령 실행
+
 `rosrun pcl_ros bag_to_pcd 파일경로 /lidar_cloud0 ./pcd`
+
 예시)
 `rosrun pcl_ros bag_to_pcd /home/lidartoeverything/CES_11_30.bag /lidar_cloud0 ./pcd`
 
