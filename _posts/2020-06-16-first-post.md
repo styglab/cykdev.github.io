@@ -32,9 +32,11 @@ bag파일을 ros가 설치된 서버에 업로드
 (https://github.com/leofansq/Tools_RosBag2KITTI)
 
 2.1
-프로젝트 만들기
+프로젝트 만들기  
 
-`mkdir CMakeFile; cd CMakeFile; cmake ..; make`
+```
+mkdir CMakeFile; cd CMakeFile; cmake ..; make
+```
 
 2.2 코드 폴더 안의 pcd2bin.cpp 파일에서 경로 고치기
 pcd2bin폴더 안의 pcd2bin.cpp 코드 내 int main 부분의 bin_path 와 pcd_path를 현재에 맞게 변경
