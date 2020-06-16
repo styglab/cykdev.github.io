@@ -4,7 +4,7 @@ date: 2020-06-08 08:26:28 -0400
 categories: bag2bin bag2pcd pcd2bin bag2kitti pcd bin kitti
 ---
 
-0. 준비사항
+0.준비사항
 
 0.0 우분투에 ros 설치
 (http://wiki.ros.org/ROS/Installation)
